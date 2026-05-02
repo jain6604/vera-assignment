@@ -1,0 +1,22 @@
+{
+  "customers": [
+    {
+      "customer_id": "c_001_priya",
+      "identity": {
+        "name": "Priya",
+        "languages": ["hi-en"],
+        "time_preference": "weekday_evening"
+      },
+      "lapse_state": {
+        "state": "lapsed_soft",
+        "days_since_last_visit": 155,
+        "last_visit_date": "2025-11-22",
+        "recall_window_days": 180
+      },
+      "appointment_history": [
+        {"date": "2025-11-22", "service": "Dental Cleaning", "price": 299},
+        {"date": "2025-05-10", "service": "Free Consultation", "price": 0}
+      ]
+    }
+  ]
+}

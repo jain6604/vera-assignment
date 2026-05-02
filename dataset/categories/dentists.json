@@ -1,0 +1,61 @@
+{
+  "slug": "dentists",
+  "offer_catalog": [
+    {"title": "Dental Cleaning @ ₹299", "value": "299", "audience": "new_user"},
+    {"title": "Free Consultation", "value": "0", "audience": "all"},
+    {"title": "Teeth Whitening @ ₹1,499", "value": "1499", "audience": "returning"},
+    {"title": "Deep Cleaning @ ₹499", "value": "499", "audience": "all"},
+    {"title": "Root Canal @ ₹2,499", "value": "2499", "audience": "all"}
+  ],
+  "voice": {
+    "tone": "peer_clinical",
+    "vocab_allowed": ["fluoride varnish", "caries", "prophylaxis", "recall", "radiograph", "DCI", "JIDA", "bruxism"],
+    "taboos": ["cure", "guaranteed", "100% painless", "best dentist"]
+  },
+  "peer_stats": {
+    "avg_rating": 4.4,
+    "avg_reviews": 62,
+    "avg_ctr": 0.030,
+    "scope": "delhi_solo_practices"
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_jida_fluoride",
+      "kind": "research",
+      "title": "3-month fluoride recall cuts caries recurrence 38% better than 6-month",
+      "source": "JIDA Oct 2026, p.14",
+      "trial_n": 2100,
+      "patient_segment": "high_risk_adults",
+      "summary": "A 2,100-patient RCT found that 3-month fluoride varnish recall appointments reduced caries recurrence by 38% compared to the standard 6-month schedule in high-risk adult patients."
+    },
+    {
+      "id": "d_2026W17_dci_radiograph",
+      "kind": "regulation",
+      "title": "DCI revised radiograph dose limits effective Nov 1 2026",
+      "source": "DCI Circular Oct 2026",
+      "summary": "The Dental Council of India revised maximum permissible radiograph dose limits for patients. Practices must update informed consent forms by Nov 1, 2026."
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_001",
+      "title": "3 things your teeth tell you about your heart",
+      "channel": "whatsapp",
+      "body": "Did you know? Gum disease increases cardiovascular risk by 20%. Regular cleaning = healthy smile + healthy heart. Book your recall today."
+    },
+    {
+      "id": "pc_002",
+      "title": "Exam stress and your teeth",
+      "channel": "whatsapp",
+      "body": "Stress during exam season causes bruxism (teeth grinding) in 1 in 4 students. Signs: jaw soreness, sensitive teeth. Ask us about a night guard."
+    }
+  ],
+  "seasonal_beats": [
+    {"month_range": "Nov-Feb", "note": "exam-stress bruxism spike — students 18-24"},
+    {"month_range": "Oct-Dec", "note": "wedding whitening peak — target brides/grooms 6-8 weeks before season"}
+  ],
+  "trend_signals": [
+    {"query": "clear aligners delhi", "delta_yoy": 0.62, "segment_age": "28-45"},
+    {"query": "teeth whitening south delhi", "delta_yoy": 0.38, "segment_age": "22-35"}
+  ]
+}

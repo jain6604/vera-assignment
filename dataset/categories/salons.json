@@ -1,0 +1,46 @@
+{
+  "slug": "salons",
+  "offer_catalog": [
+    {"title": "Haircut @ ₹99", "value": "99", "audience": "new_user"},
+    {"title": "Facial @ ₹299", "value": "299", "audience": "all"},
+    {"title": "Hair Color @ ₹799", "value": "799", "audience": "returning"},
+    {"title": "Manicure + Pedicure @ ₹499", "value": "499", "audience": "all"},
+    {"title": "Bridal Package @ ₹3,499", "value": "3499", "audience": "bridal"}
+  ],
+  "voice": {
+    "tone": "warm_friendly",
+    "vocab_allowed": ["blowdry", "keratin", "balayage", "highlights", "trichologist"],
+    "taboos": ["chemical-free", "100% natural", "guaranteed results"]
+  },
+  "peer_stats": {
+    "avg_rating": 4.2,
+    "avg_reviews": 48,
+    "avg_ctr": 0.025,
+    "scope": "delhi_unisex_salons"
+  },
+  "digest": [
+    {
+      "id": "d_2026W17_bridal_season",
+      "kind": "trend",
+      "title": "Wedding season bookings up 44% YoY in Oct-Dec window",
+      "source": "magicpin internal data, Sep 2026",
+      "summary": "Salon bookings for bridal packages surge in October–December. Salons that activate bridal offers by Oct 15 capture 3x more leads than those who activate in November."
+    }
+  ],
+  "patient_content_library": [
+    {
+      "id": "pc_s_001",
+      "title": "5 hair care tips for Delhi winter",
+      "channel": "whatsapp",
+      "body": "Delhi winters dry out hair fast. Tip 1: Oil twice a week. Tip 2: Lukewarm water only. Tip 3: Trim split ends every 6 weeks. Ask us about our winter hair care package!"
+    }
+  ],
+  "seasonal_beats": [
+    {"month_range": "Oct-Dec", "note": "wedding/bridal season peak — highest demand for bridal packages"},
+    {"month_range": "Jan-Feb", "note": "post-wedding lull — good time for loyalty offers and referral drives"}
+  ],
+  "trend_signals": [
+    {"query": "bridal makeup south delhi", "delta_yoy": 0.44, "segment_age": "22-32"},
+    {"query": "keratin treatment delhi", "delta_yoy": 0.29, "segment_age": "25-40"}
+  ]
+}

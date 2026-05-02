@@ -1,0 +1,60 @@
+{
+  "triggers": [
+    {
+      "id": "trg_2026_04_26_research_digest_dentists",
+      "merchant_id": "m_001_drmeera",
+      "scope": "merchant",
+      "kind": "research_digest",
+      "source": "external",
+      "urgency": 2,
+      "suppression_key": "research:dentists:2026-W17",
+      "expires_at": "2026-05-03T00:00:00Z",
+      "payload": {
+        "category": "dentists",
+        "merchant_id": "m_001_drmeera",
+        "top_item": {
+          "id": "d_2026W17_jida_fluoride",
+          "title": "3-month fluoride recall cuts caries recurrence 38% better than 6-month",
+          "source": "JIDA Oct 2026, p.14",
+          "trial_n": 2100,
+          "patient_segment": "high_risk_adults"
+        }
+      }
+    },
+    {
+      "id": "trg_2026_04_26_perf_spike_stylestudio",
+      "merchant_id": "m_002_stylestudio",
+      "scope": "merchant",
+      "kind": "perf_spike",
+      "source": "internal",
+      "urgency": 4,
+      "suppression_key": "perf_spike:m_002_stylestudio:2026-04-26",
+      "expires_at": "2026-04-27T00:00:00Z",
+      "payload": {
+        "merchant_id": "m_002_stylestudio",
+        "views_yesterday": 487,
+        "views_avg": 127,
+        "spike_pct": 28,
+        "likely_cause": "Google Maps ranking improvement after recent review"
+      }
+    },
+    {
+      "id": "trg_2026_04_26_recall_priya",
+      "merchant_id": "m_001_drmeera",
+      "scope": "customer",
+      "kind": "recall_due",
+      "source": "internal",
+      "urgency": 3,
+      "suppression_key": "recall:m_001_drmeera:c_001_priya",
+      "expires_at": "2026-05-10T00:00:00Z",
+      "payload": {
+        "merchant_id": "m_001_drmeera",
+        "customer_id": "c_001_priya",
+        "days_since_last_visit": 155,
+        "recall_window_days": 180,
+        "available_slots": ["Wed 6 Nov 6pm", "Thu 7 Nov 5pm"],
+        "active_offer": "Dental Cleaning @ ₹299"
+      }
+    }
+  ]
+}

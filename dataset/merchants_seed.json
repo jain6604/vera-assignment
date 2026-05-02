@@ -1,0 +1,88 @@
+{
+  "merchants": [
+    {
+      "merchant_id": "m_001_drmeera",
+      "category_slug": "dentists",
+      "identity": {
+        "name": "Dr. Meera's Dental Clinic",
+        "owner_first_name": "Meera",
+        "locality": "Lajpat Nagar",
+        "city": "Delhi",
+        "verified": true,
+        "languages": ["en", "hi-en"],
+        "place_id": "ChIJXXXXDrMeera001"
+      },
+      "subscription": {
+        "status": "active",
+        "days_remaining": 82,
+        "plan": "Pro"
+      },
+      "performance": {
+        "views": 2410,
+        "calls": 18,
+        "directions": 45,
+        "ctr": 0.021,
+        "views_delta_7d": "+4%",
+        "calls_delta_7d": "-8%"
+      },
+      "offers": [
+        {"title": "Dental Cleaning @ ₹299", "status": "active", "value": "299"},
+        {"title": "Deep Cleaning @ ₹499", "status": "expired", "value": "499"}
+      ],
+      "signals": ["stale_posts", "ctr_below_peer_median"],
+      "customer_aggregate": {
+        "active_count": 462,
+        "lapsed_count": 78,
+        "retention_6mo": 0.38
+      },
+      "conversation_history": {
+        "last_vera_message_at": "2026-04-24T10:00:00Z",
+        "last_merchant_reply_at": "2026-04-23T11:30:00Z",
+        "last_topic": "profile_completeness",
+        "engagement_score": 7
+      }
+    },
+    {
+      "merchant_id": "m_002_stylestudio",
+      "category_slug": "salons",
+      "identity": {
+        "name": "Style Studio Unisex Salon",
+        "owner_first_name": "Kavita",
+        "locality": "Connaught Place",
+        "city": "Delhi",
+        "verified": true,
+        "languages": ["en", "hi"],
+        "place_id": "ChIJXXXXStyleStudio002"
+      },
+      "subscription": {
+        "status": "active",
+        "days_remaining": 34,
+        "plan": "Basic"
+      },
+      "performance": {
+        "views": 3820,
+        "calls": 42,
+        "directions": 91,
+        "ctr": 0.029,
+        "views_delta_7d": "+28%",
+        "calls_delta_7d": "+12%"
+      },
+      "offers": [
+        {"title": "Haircut @ ₹99", "status": "active", "value": "99"},
+        {"title": "Bridal Package @ ₹3,499", "status": "paused", "value": "3499"}
+      ],
+      "signals": ["perf_spike", "paused_offer"],
+      "customer_aggregate": {
+        "active_count": 234,
+        "lapsed_count": 45,
+        "retention_6mo": 0.52
+      },
+      "conversation_history": {
+        "last_vera_message_at": "2026-04-22T09:00:00Z",
+        "last_merchant_reply_at": "2026-04-22T09:45:00Z",
+        "last_topic": "perf_review",
+        "engagement_score": 8
+      }
+    }
+  ]
+}
