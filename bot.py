@@ -308,9 +308,12 @@ Name specific deliverable. Max 2 sentences. OUTPUT: Just reply."""
 def build_tick_actions(available_trigger_ids: List[str]) -> List[Dict]:
     actions = []
     merchants_actioned: set = set()
-    trigger_items = [(get_ctx("trigger", tid) or {}).get("urgency", 3), tid, get_ctx("trigger", tid)
-                     for tid in available_trigger_ids if get_ctx("trigger", tid)]
-    trigger_items = [(u, tid, trg) for u, tid, trg in trigger_items if trg]
+    trigger_items = [
+        (trg.get("urgency", 3), tid, trg)
+        for tid in available_trigger_ids
+        for trg in [get_ctx("trigger", tid)]
+        if trg
+    ]
     trigger_items.sort(key=lambda x: x[0], reverse=True)
 
     for urgency, tid, trg in trigger_items:
